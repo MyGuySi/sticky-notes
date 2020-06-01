@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="stack"
+>
+  <h1
+    className="heading"
+  >
+    Title
+  </h1>
+  <div
+    className="grid"
+  >
+    <div
+      className="wrapper"
+    >
+      <button
+        className="button"
+        data-testid="add-button"
+        onClick={[Function]}
+      >
+        New note (n)
+      </button>
+    </div>
+    <div
+      className="note pink"
+    >
+      <div
+        className="item"
+      >
+        <p
+          className="message"
+        >
+          Test note
+        </p>
+        <p
+          className="date"
+        >
+          50 years ago
+        </p>
+      </div>
+    </div>
+  </div>
+  <button
+    className="button"
+    data-testid="clear-button"
+    onClick={[Function]}
+  >
+    Clear all notes (c)
+  </button>
+</div>
+`;

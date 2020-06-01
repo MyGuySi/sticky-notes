@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders correctly 1`] = `
+<div
+  className="wrapper"
+>
+  <label
+    className="label"
+  >
+    Name
+    :
+  </label>
+  <input
+    className="input"
+    onChange={[Function]}
+    placeholder="e.g. John Smith"
+    type="text"
+  />
+</div>
+`;

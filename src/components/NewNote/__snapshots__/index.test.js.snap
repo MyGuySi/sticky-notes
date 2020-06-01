@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="note cyan"
+>
+  <form
+    data-testid="new-form"
+    onReset={[Function]}
+    onSubmit={[Function]}
+  >
+    <div
+      className="stack"
+    >
+      <div
+        className="wrapper"
+      >
+        <input
+          className="input"
+          data-testid="text-input"
+          onChange={[Function]}
+          placeholder="Type your message..."
+          value="Test"
+        />
+      </div>
+      <div
+        className="stack row"
+      >
+        <button
+          className="button primary"
+          data-testid="save-button"
+          disabled={false}
+          type="submit"
+        >
+          Save (Enter)
+        </button>
+        <button
+          className="button"
+          data-testid="cancel-button"
+          type="reset"
+        >
+          Cancel (Esc)
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
+`;

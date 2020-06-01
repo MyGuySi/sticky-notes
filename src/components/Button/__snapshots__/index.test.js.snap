@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders correctly 1`] = `
+<button
+  className="button"
+  onClick={[Function]}
+>
+  Title
+</button>
+`;
+
+exports[`Renders muted state 1`] = `
+<button
+  className="button muted"
+  onClick={[Function]}
+>
+  Title
+</button>
+`;
+
+exports[`Renders primary state 1`] = `
+<button
+  className="button primary"
+  onClick={[Function]}
+>
+  Title
+</button>
+`;

@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="wrapper"
+>
+  <button
+    className="button"
+    data-testid="add-button"
+    onClick={[Function]}
+  >
+    New note (n)
+  </button>
+  <img
+    alt=""
+    className="empty"
+    height="83"
+    src={
+      Object {
+        "ReactComponent": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        },
+        "__esModule": true,
+        "default": "get-started.svg",
+      }
+    }
+    width="225"
+  />
+</div>
+`;
